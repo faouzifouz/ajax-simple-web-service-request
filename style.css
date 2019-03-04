@@ -6,16 +6,45 @@ body{
 }
 
 
-section { text-align: center; }
+section { text-align: center;
+        background-color: gainsboro;
+        margin-top: 5em;
+        width:   auto;
+        
 
-#quote { font-family: 'Indie Flower', cursive; width: 60%; box-align: center; font-size: 2em; color: white; margin-left: auto; margin-right: auto; }
+}
 
-.tof{ border-radius: 50%; width: 200px; height: 200px; background-size: cover; }
+#quote {  width: 60%; 
+        box-align: center; 
+        font-size: 2em; 
+        color: burlywood;
+        margin-left: auto;
+        margin-right: auto; 
+    }
 
-section { background-color: dimgrey; margin-top: 5em; }
+.tof{ border-radius: 50%; 
+        width: 200px;
+        height: 200px;
+        background-size: cover; 
+    }
 
-h1 { margin-top: 1em; }
 
-.btn { margin-top: 0.5em; border-radius: 50%; background-color: orangered; font-family: 'Pacifico', cursive; }
+h1 { margin-top: 1em; 
+}
 
-#auteur { font-family: 'Pacifico', cursive; font-size: 1em; color: white; margin-bottom: 1.5em; margin-top: 1em; }
+.btn {  margin-top: 0.5em;
+        padding: 10px 20px 20px;
+        width: 200px;
+        height: 25px;  
+        background-color: goldenrod; 
+        border: black solid 2px;
+    
+}
+
+#auteur {  
+    font-size: 1em; 
+    color: white; 
+    margin-bottom: 1.5em; 
+    margin-top: 1em; 
+
+}
